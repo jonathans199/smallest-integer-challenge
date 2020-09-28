@@ -27,5 +27,4 @@ You will be evaluated based on:
 You're advised to include any less efficient solutions or pseudo code definitions of such solutions in your final submission.
 
 # My solution
-![my solution]
-(code.png)
+![my solution](code.png)
