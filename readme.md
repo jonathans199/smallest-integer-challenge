@@ -28,4 +28,4 @@ You're advised to include any less efficient solutions or pseudo code definition
 
 # My solution
 ![my solution]
-(./code.png)
+(code.png)
