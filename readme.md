@@ -1,3 +1,4 @@
+# Instructions
 Write a function: function smallestInt(A);
 
 that, given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
@@ -24,3 +25,7 @@ You will be evaluated based on:
 - Code style and quality
 
 You're advised to include any less efficient solutions or pseudo code definitions of such solutions in your final submission.
+
+# My solution
+![my solution]
+(./code.png)

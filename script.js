@@ -24,7 +24,7 @@ const smallestInt2 = A => {
 	return 1
 }
 
-// test with set , but honestly I've never used `set` before
+// test with set , but honestly I've never found a use for `set` before on projects
 const smallestInt3 = A => {
 	const completeSet = new Set(A)
 	let i = 1
