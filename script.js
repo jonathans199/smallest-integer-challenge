@@ -38,17 +38,17 @@ const smallestInt3 = A => {
 const runTests = () => {
 	console.clear()
 
-  //first test
+	//first test
 	console.log('test 1 => ', smallestInt1(test1))
 	console.log('test 2 => ', smallestInt1(test2))
-  console.log('test 3 => ', smallestInt1(test3))
+	console.log('test 3 => ', smallestInt1(test3))
 
-  //second test
+	//second test
 	console.log('test 1 => ', smallestInt2(test1))
 	console.log('test 2 => ', smallestInt2(test2))
-  console.log('test 3 => ', smallestInt2(test3))
+	console.log('test 3 => ', smallestInt2(test3))
 
-  // third test 
+	// third test
 	console.log('test 1 => ', smallestInt3(test1))
 	console.log('test 2 => ', smallestInt3(test2))
 	console.log('test 3 => ', smallestInt3(test3))
@@ -61,15 +61,13 @@ const runBenchmark = () => {
 		smallestInt1(test1)
 		const endTime = performance.now()
 		console.log('time elapsed solution 1: ', endTime - startTime)
-  })()
-  
+	})()
 	;(() => {
 		const startTime = performance.now()
 		smallestInt2(test1)
 		const endTime = performance.now()
 		console.log('time elapsed solution 2: ', endTime - startTime)
-  })()
-  
+	})()
 	;(() => {
 		const startTime = performance.now()
 		smallestInt3(test1)
